@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import Event from './src/controllers/event';
 
-const app = express();
+const app = express()
 
 app.use(express.urlencoded({
     extended: false
