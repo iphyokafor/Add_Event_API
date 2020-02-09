@@ -25,6 +25,6 @@ app.listen(port, () => {
     console.log(`running app on port ${port}`);
 })
 
-// routes
+
 app.post('/api/v1/Events', Event.addPost);
 app.get('/api/v1/Events', Event.getAll);
